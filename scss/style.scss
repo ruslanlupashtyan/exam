@@ -559,7 +559,8 @@ li {
 	body {
 		min-width: unset;
 		.section {
-			padding: 0 20px;
+			padding-left: 20px;
+			padding-right: 20px;
 			&__about {
 				padding-top: 50px;
 			}	

@@ -45,14 +45,33 @@
 					bhromaon
 				</h1>
 			</a>
-			<nav class="header__menu">
+			<nav class="topnav" id="myTopnav">
 				<ul class="menu__list">
 					<li class="list__links"><a class="link" href="#choose">who we are</a></li>
 					<li class="list__links"><a class="link" href="#booking">what we do</a></li>
 					<li class="list__links"><a class="link" href="#about">travel with us</a></li>
 					<li class="list__links"><a class="link" href="#contact">contact us</a></li>
+					<li class="list__links"><a href="javascript:void(0);" class="icon_hamb" onclick="toggeMenu()">
+							<div class="hamburger" id="hamburger-1">
+								<span class="line"></span>
+								<span class="line"></span>
+								<span class="line"></span>
+							</div>
+						</a></li>
 				</ul>
 			</nav>
+		</div>
+		<div class="menu-wrapper">
+			<div id="main-menu">
+				<li class="list__links"><a class="link" href="#choose"><i class="fas fa-chevron-right"></i> who we
+						are</a></li>
+				<li class="list__links"><a class="link" href="#booking"><i class="fas fa-chevron-right"></i> what we
+						do</a></li>
+				<li class="list__links"><a class="link" href="#about"><i class="fas fa-chevron-right"></i> travel with
+						us</a></li>
+				<li class="list__links"><a class="link" href="#contact"><i class="fas fa-chevron-right"></i> contact
+						us</a></li>
+			</div>
 		</div>
 	</header>
 	<section class="section section__choose" id="choose">
@@ -74,8 +93,8 @@
 				</button>
 			</div>
 			<div class="col-6 choose_img">
-				<img class="lake" src="../images/lake.png" alt="">
-				<img class="montain" src="../images/mountain.png" alt="">
+				<img class="img lake" src="../images/lake.png" alt="">
+				<img class="img montain" src="../images/mountain.png" alt="">
 			</div>
 		</div>
 	</section>
@@ -116,7 +135,7 @@
 		</div>
 	</section>
 	<section class="section product section__product_top">
-		<div class="container">
+		<div class="container product_container">
 			<div class="col-6 product_description">
 				<h5 class="h5">
 					Spain
@@ -135,7 +154,7 @@
 		</div>
 	</section>
 	<section class="section product section__product_bottom">
-		<div class="container clearfix">
+		<div class="container product_container clearfix">
 			<div class="col-6 product_description" style="float: right;">
 				<h5 class="h5">
 					Spain
@@ -206,6 +225,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="../js/script.js"></script>
 </body>
 
 </html>

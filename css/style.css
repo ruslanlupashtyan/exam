@@ -406,12 +406,19 @@ a {
       padding: 0 20px; }
       body .section__about {
         padding-top: 50px; } }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 992px) {
+  body .header__logo {
+    font-size: 24px; } }
+@media screen and (max-width: 768px) {
+  body .header__logo {
+    font-size: 20px; }
+  body .link {
+    font-size: 14px; }
+  body .list__links {
+    margin-left: 10px !important; }
   body .row.about_row {
     display: block; } }
-@media screen and (max-width: 480px) {
-  body .link {
-    font-size: 12px; }
+@media screen and (max-width: 576px) {
   body .row.about_row {
     display: block; } }
 

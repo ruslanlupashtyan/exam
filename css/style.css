@@ -167,6 +167,9 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media (max-width: 678px) {
+    .header {
+      padding-top: 20px; } }
   .header .menu-wrapper {
     position: relative;
     width: 100%;

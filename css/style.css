@@ -202,6 +202,9 @@ li {
         margin-left: 40px;
         font-size: 14px;
         border-bottom: 2px solid transparent; }
+        @media (max-width: 400px) {
+          .header .header_container .topnav .menu__list .list__links {
+            margin-left: 0; } }
         .header .header_container .topnav .menu__list .list__links .icon_hamb {
           display: none; }
           @media (max-width: 678px) {
@@ -264,6 +267,9 @@ li {
           font-size: 48px;
           font-family: 'jossefinesans bold';
           line-height: normal; }
+          @media (max-width: 350px) {
+            .section__main .container__main .logo_box .main__logo {
+              font-size: 30px; } }
         .section__main .container__main .logo_box .main__description {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -276,6 +282,9 @@ li {
             letter-spacing: 0.50em;
             word-spacing: 10px;
             margin-bottom: 50px; }
+            @media (max-width: 350px) {
+              .section__main .container__main .logo_box .main__description .text__description {
+                font-size: 14px; } }
       .section__main .container__main .item_search {
         margin-top: 50px;
         max-width: 650px;
@@ -302,6 +311,11 @@ li {
           margin: 2px;
           cursor: pointer;
           background-color: #5474fd; }
+          @media (max-width: 400px) {
+            .section__main .container__main .item_search_btn {
+              width: 100px; }
+              .section__main .container__main .item_search_btn p {
+                display: none; } }
           .section__main .container__main .item_search_btn .search_icon {
             width: 25px;
             height: 25px;

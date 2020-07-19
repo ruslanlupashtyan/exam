@@ -197,6 +197,9 @@ li {
 					font-family: 'aleo';
 					margin-left: 40px;
 					font-size: 14px;
+					@media (max-width: 400px) {
+						margin-left: 0;
+					}
 					border-bottom: 2px solid transparent;
 					.icon_hamb {
 						display: none;
@@ -246,6 +249,9 @@ li {
 					font-size: 48px;
 					font-family: 'jossefinesans bold';
 					line-height: normal;
+					@media (max-width: 350px) {
+						font-size: 30px;
+					}
 				}
 				.main__description {
 					display: flex;
@@ -255,6 +261,9 @@ li {
 						letter-spacing: 0.50em;
 						word-spacing: 10px;
 						margin-bottom: 50px;
+						@media (max-width: 350px) {
+							font-size: 14px;
+						}
 					}
 				}
 			}
@@ -273,7 +282,6 @@ li {
 					border: none;
 					text-align: center;
 					font-weight: 3.24vw;
-					// letter-spacing: 0.2em;
 				}
 				&_btn {
 					height: calc(100% - 4px);
@@ -282,6 +290,12 @@ li {
 					margin: 2px;
 					cursor: pointer;
 					background-color: #5474fd;
+					@media (max-width: 400px) {
+						width: 100px;
+						p {
+							display: none;
+						}
+					}
 					.search_icon {
 						width: 25px;
 						height: 25px;
